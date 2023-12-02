@@ -1,9 +1,7 @@
-# Esse site esta sendo desenvolvido pra vendas e hospedagens de projetos, sites, app, softwers  
-
-
 <h1 align="center">
- <img src="view/img/logo.svg" width="80px;" alt="Logo"/><br>DevCode
+ <img src="View/img/logo.svg" width="100px;" alt="Logo"/><br>DevCode
 </h1>
+<h2 aling="center">Esse site esta sendo desenvolvido pra vendas e hospedagens de projetos, sites, app, softwers</h2>
 
 ![Resultado final do projeto](view/_img/site.png)
 
