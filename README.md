@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
- <img src="view/img/logo.svg" width="80px;" alt="Logo"/><br>DevCode
+ <img src="View/img/logo.svg" width="100px;" alt="Logo"/><br>DevCode
 </h1>
 
 ![Resultado final do projeto](view/_img/site.png)
