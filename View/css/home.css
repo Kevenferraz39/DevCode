@@ -181,6 +181,47 @@ body {
   #myBtn:hover {
     background-color: var(--roxo-hover);
   }
+/*carrosel*/
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 50px; /* Altura do header fixo */
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 400px;
+  margin-top: -50px; /* Negativo para começar abaixo do header */
+}
+
+.carousel-item {
+  border-radius: 10px;
+  margin-right: 20px;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+/*carrosel*/
   .promo{
     background: linear-gradient(180deg, rgba(66, 43, 145, 0.83) 4.17%, #7E43AC 99.99%, rgba(224, 0, 244, 0.63) 100%), linear-gradient(180deg, rgba(66, 43, 145, 0.83) 4.17%, #7E43AC 99.99%, rgba(224, 0, 244, 0.63) 100%);
     width: 100%;
